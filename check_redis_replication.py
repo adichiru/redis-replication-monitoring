@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 #
-# Copyright: Adi Chiru
+# Copyright: Adi Chiru  - IQ DevOps Consulting Ltd.
 # Functionality: mostly intended for Nagios but the only Nagios specific characteristic
 #                is the exit codes; can be used in any other way...
 # 2014-08-23 - Adi Chiru
-#              - initial iteration
+#              - initial commit
 # 2014-08-25 - Adi Chiru
-#              - fixing the multiple connects in the functions
+#              - fixing unnecessary multiple connects in functions
 #              - making sure the loop ends 2 seconds after the critical value is reached - makes no sense waiting longer
 
 import sys
